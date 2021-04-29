@@ -24,6 +24,12 @@ class LocalRepositoryDataSource: RepositoryDataSource {
                 starCount = "2"
             )
         )
+    }
 
+    override fun fetchProfileData(): List<ProfileData> {
+        return listOf(
+            ProfileData(name = "Kang", age = 27),
+            ProfileData(name = "kim", age = 25)
+        )
     }
 }

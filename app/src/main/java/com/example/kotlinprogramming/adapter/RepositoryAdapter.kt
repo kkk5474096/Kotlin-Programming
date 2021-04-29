@@ -1,4 +1,4 @@
-package com.example.kotlinprogramming.presentation
+package com.example.kotlinprogramming.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

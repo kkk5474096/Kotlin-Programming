@@ -2,6 +2,7 @@ package com.example.kotlinprogramming.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kotlinprogramming.adapter.RepositoryAdapter
 import com.example.kotlinprogramming.data.GithubRepo
 import com.example.kotlinprogramming.data.RepositoryDataSource
 import com.example.kotlinprogramming.data.LocalRepositoryDataSource

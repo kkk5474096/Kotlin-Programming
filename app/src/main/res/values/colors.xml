@@ -3,4 +3,12 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="chip1_color">#FEDA52</color>
+    <color name="chip2_color">#FF847D</color>
+    <color name="chip3_color">#DAFE78</color>
+    <color name="chip4_color">#7ADBFF</color>
+    <color name="chip5_color">#B98EFD</color>
+    <color name="chip6_color">#C4C4C4</color>
 </resources>

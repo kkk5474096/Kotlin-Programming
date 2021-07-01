@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_delete_time"
+        android:id="@+id/tv_delete_duration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -36,7 +36,7 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@id/image_delete_time"
-        app:layout_constraintTop_toTopOf="@id/tv_delete_time" />
+        app:layout_constraintTop_toTopOf="@id/tv_delete_duration" />
 
     <ImageView
         android:id="@+id/image_delete_time"
@@ -44,9 +44,9 @@
         android:layout_height="18dp"
         android:layout_marginEnd="20dp"
         android:src="@drawable/prop_ic_post"
-        app:layout_constraintBottom_toBottomOf="@id/tv_delete_time"
+        app:layout_constraintBottom_toBottomOf="@id/tv_delete_duration"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_delete_time" />
+        app:layout_constraintTop_toTopOf="@id/tv_delete_duration" />
 
     <TextView
         android:id="@+id/tv_trash_setting"
@@ -55,8 +55,8 @@
         android:layout_marginTop="20dp"
         android:text="휴지통 관리"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
-        app:layout_constraintTop_toBottomOf="@id/tv_delete_time" />
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
+        app:layout_constraintTop_toBottomOf="@id/tv_delete_duration" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
         android:layout_marginTop="20dp"
         android:text="푸시알림"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
         app:layout_constraintTop_toBottomOf="@id/tv_trash_setting" />
 
     <Switch
@@ -105,7 +105,7 @@
         android:layout_marginTop="20dp"
         android:text="비움을 만든 이쁜잘생쁜사람들^^"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
         app:layout_constraintTop_toBottomOf="@id/view_half" />
 
     <TextView
@@ -115,7 +115,7 @@
         android:layout_marginTop="20dp"
         android:text="서비스 이용약관"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
         app:layout_constraintTop_toBottomOf="@id/tv_producer" />
 
     <TextView
@@ -125,7 +125,7 @@
         android:layout_marginTop="20dp"
         android:text="오픈소스 라이센스"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
         app:layout_constraintTop_toBottomOf="@id/tv_terms" />
 
     <TextView
@@ -135,7 +135,7 @@
         android:layout_marginTop="20dp"
         android:text="개인정보 처리방침"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/tv_delete_time"
+        app:layout_constraintStart_toStartOf="@id/tv_delete_duration"
         app:layout_constraintTop_toBottomOf="@id/tv_license" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

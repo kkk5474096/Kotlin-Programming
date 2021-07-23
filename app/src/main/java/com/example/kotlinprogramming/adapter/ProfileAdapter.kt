@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlinprogramming.data.ProfileData
-import com.example.kotlinprogramming.databinding.ActivityTestBinding
 import com.example.kotlinprogramming.databinding.ItemRcvListBinding
 
 class ProfileAdapter(): RecyclerView.Adapter<ProfileAdapter.ProfileViewHolder>() {

@@ -43,7 +43,7 @@
             android:id="@+id/iv_main_star"
             android:layout_width="15dp"
             android:layout_height="15dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/ic_guess_it"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="@id/tv_main_repo_name"
             app:layout_constraintTop_toBottomOf="@id/tv_main_repo_description"

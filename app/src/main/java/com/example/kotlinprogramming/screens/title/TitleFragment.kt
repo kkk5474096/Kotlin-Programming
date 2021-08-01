@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.kotlinprogramming.R
 import com.example.kotlinprogramming.databinding.TitleFragmentBinding
+import com.example.kotlinprogramming.screens.game.GameFragmentDirections
 
 class TitleFragment : Fragment() {
 
@@ -19,7 +20,7 @@ class TitleFragment : Fragment() {
             inflater, R.layout.title_fragment, container, false)
 
         binding.playGameButton.setOnClickListener {
-            findNavController().navigate(R.id.action_title_to_game)
+            findNavController().navigate(TitleFragmentDirections.actionTitleToGame())
         }
         return binding.root
     }

@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStore
+import androidx.navigation.fragment.findNavController
 import com.example.kotlinprogramming.R
 import com.example.kotlinprogramming.databinding.ScoreFragmentBinding
 
@@ -34,6 +35,16 @@ class ScoreFragment : Fragment() {
         viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
             binding.scoreText.text= newScore.toString()
         })
+
+        viewModel.eventPlayAgain.observe(viewLifecycleOwner, Observer { playAgain ->
+            if (playAgain) {
+                findNavController().navigate(ScoreFragmentDirections.actionRestart())
+                viewModel.onPlayAgainComplete()
+            }
+        })
+
+        binding.playAgainButton.setOnClickListener { viewModel.onPlayAgain() }
+
         return binding.root
     }
 }

@@ -42,6 +42,7 @@
             android:fontFamily="sans-serif"
             android:textColor="@color/black_text_color"
             android:textSize="34sp"
+            android:text="@{String.valueOf(scoreViewModel.score)}"
             android:textStyle="normal"
             app:layout_constraintBottom_toTopOf="@+id/play_again_button"
             app:layout_constraintEnd_toEndOf="parent"

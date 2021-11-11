@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".OpenInternetActivity"/>
         <activity android:name=".CalculatorActivity"/>
-        <activity android:name=".screens.MainActivity">
+        <activity android:name=".databinding.MainActivity">
         </activity>
         <activity android:name=".databinding.DataActivity">
             <intent-filter>

@@ -13,6 +13,8 @@
         <activity android:name=".OpenInternetActivity"/>
         <activity android:name=".CalculatorActivity"/>
         <activity android:name=".screens.MainActivity">
+        </activity>
+        <activity android:name=".databinding.DataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
